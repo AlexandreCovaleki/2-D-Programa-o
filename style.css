@@ -59,6 +59,32 @@ body{
 }
 
 
-.flex
-min-height 100vh;
-background-color 
+.flex{
+min-height: 100vh;
+background-color: white;
+display: flex;
+flex-direction: column; 
+}
+
+.imagem{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+}
+
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+.paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
